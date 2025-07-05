@@ -15,6 +15,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation ("org.redisson:redisson:3.16.4")
     implementation ("com.github.ben-manes.caffeine:caffeine:3.1.8")
+    implementation ("com.zaxxer:HikariCP:5.0.1")
+    implementation ("org.springframework:spring-context:5.3.21")
 
 }
 

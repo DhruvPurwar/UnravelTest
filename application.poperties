@@ -1,0 +1,13 @@
+# application.properties
+
+spring.datasource.hikari.jdbc-url=jdbc:mysql://localhost:3306/yourdb
+spring.datasource.hikari.username=yourusername
+spring.datasource.hikari.password=yourpassword
+spring.datasource.hikari.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# HikariCP specific settings
+spring.datasource.hikari.maximum-pool-size=10
+spring.datasource.hikari.minimum-idle=5
+spring.datasource.hikari.idle-timeout=30000
+spring.datasource.hikari.connection-timeout=20000
+spring.datasource.hikari.max-lifetime=1800000
